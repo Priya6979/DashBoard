@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.heading {
+	text-align: start;
+}
+.cards-container {
+	margin-top: 35px;
+}
+.top-card {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+.box {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.txt-num {
+	text-align: start;
+}
+.loading-score {
+	width: 100px;
+	height: 100px;
+}
+.centre_charts {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	margin-top: 10px;
+}
+.main-container {
+	padding-top: 26px;
+}
+.bar_content,
+.line_content {
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+.bottom_progress {
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
+}
+.country-info-item {
+	margin-top: 10px;
+}
+.progressBar-txt {
+	border: 2px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	width: 300px;
+	height: 300px;
+}
+
+.country-info-item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+.table {
+	margin-top: 20px;
+}

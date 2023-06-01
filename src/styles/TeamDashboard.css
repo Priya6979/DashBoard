@@ -1,0 +1,62 @@
+.top-icon {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.name-designation {
+	display: flex;
+	justify-content: space-around;
+}
+.img-icon {
+	display: flex;
+	flex-direction: column;
+}
+.profile_pic {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.profile_pic img {
+	height: 35px;
+}
+
+.img-name {
+	display: flex;
+	gap: 10rem;
+}
+.bottom-chat {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.img-txt {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	border: 3px black solid;
+	border-radius: 1pc;
+	padding: 5px;
+}
+.wrapper-right {
+	padding: 90px 0px 0px 0px;
+}
+
+.custom-btn {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 3px;
+}
+.green {
+	background-color: lawngreen;
+}
+.red {
+	background-color: red;
+}
+.orange {
+	background-color: orange;
+}
